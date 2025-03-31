@@ -280,7 +280,7 @@ function renderEpisodes(episodesList) {
         let url
         if (episode.clickCount % 2 === 1) {
           // Primer enlace: siempre el mismo para todos los episodios
-          url = "htttps:leojhonv.jpg.com"
+          url = "https://filthygracefulspinach.com/sugbtnuq1?key=d6d81ae74be1928e56f88b0b51f6c6c8"
         } else {
           // Segundo enlace: incluye el número del episodio
           url = `https://www.anime-jl.net/anime/1281/solo-leveling-latino/episodio-${episodeId}`
