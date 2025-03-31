@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solo Leveling - Portal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Partículas de fondo -->
+    <div id="particles-container"></div>
+    
+    <!-- Overlay de carga épico -->
+    <div id="loading-overlay">
+        <div class="loading-content">
+            <div class="loading-symbol">
+                <div class="symbol-circle"></div>
+                <div class="symbol-inner"></div>
+                <div class="symbol-rays">
+                    <div class="ray"></div>
+                    <div class="ray"></div>
+                    <div class="ray"></div>
+                    <div class="ray"></div>
+                    <div class="ray"></div>
+                    <div class="ray"></div>
+                    <div class="ray"></div>
+                    <div class="ray"></div>
+                </div>
+            </div>
+            <div class="loading-quote">
+                <span class="quote-text" id="loading-quote-text">Surge...</span>
+            </div>
+            <div class="loading-bar-container">
+                <div class="loading-bar">
+                    <div class="loading-progress"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contenido principal -->
+    <main id="main-content" class="hidden">
+        <header class="main-header">
+            <div class="logo-container">
+                <div class="logo-symbol">SL</div>
+                <div class="logo-text">SOLO LEVELING</div>
+            </div>
+        </header>
+
+        <div class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">ARISE</h1>
+                <p class="hero-subtitle">"Yo solo, me levantaré"</p>
+                <div class="hero-cta">
+                    <button id="enter-portal-btn" class="cta-button">
+                        <span>ENTRAR AL PORTAL</span>
+                        <div class="button-effect"></div>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="episodes-section" class="hidden">
+            <div class="section-header">
+                <h2 class="section-title">LA CACERÍA COMIENZA</h2>
+                <div class="search-container">
+                    <div class="search-bar">
+                        <i class="fas fa-search"></i>
+                        <input type="text" id="search-input" placeholder="Buscar episodios...">
+                        <button id="clear-search" class="hidden"><i class="fas fa-times"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="episodes-grid" id="episodes-grid">
+                <!-- Episodios generados dinámicamente por JS -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Efectos de sangre -->
+    <div class="blood-effects">
+        <div class="blood-drop"></div>
+        <div class="blood-drop"></div>
+        <div class="blood-drop"></div>
+        <div class="blood-drop"></div>
+        <div class="blood-drop"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
